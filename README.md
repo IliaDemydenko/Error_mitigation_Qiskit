@@ -1,4 +1,4 @@
-This is the repositary for problem from Kharkiv Quantum Winter School 2025. Below its formulation:
+This is the repositary for trainig problem from Kharkiv Quantum Winter School 2025. Below its formulation:
 
 In the first tutorials we have given additional problems with hardware noise. Hardware noise is simulated by some noise model, which characterizes the noise of the gates execution. The noise influences the final results of measurements. Noise mitigation is a set of strategies aimed at cleaning the results of measurements from the noise effects.
 

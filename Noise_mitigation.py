@@ -1,4 +1,4 @@
-#This code impelements the simplest method of obtaining the measurement result without noises on quantum computer, which is called ZNE - Zero Noise Extrapolation
+#This code implements the simplest method of obtaining the measurement result without noises on quantum computer, which is called ZNE - Zero Noise Extrapolation
 
 from qiskit import *
 import numpy as np
@@ -24,7 +24,7 @@ qc.measure(0,0)
 qc.measure(1,1)
 qc.measure(2,2)
 
-#Here we measure our ciircuit with AerSimulator without error (ideal quantum computer). Further we focus on the probability of obtaining state |100>
+#Here we measure our circuit with AerSimulator without error (ideal quantum computer). Further we focus on the probability of obtaining state |100>
 shots_number = 100000
 backend = AerSimulator(method='statevector', shots=shots_number)
 result = backend.run(qc).result()
